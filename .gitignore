@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Terrain bake cache + shader binaries
+bake_cache/
+*.ptf
+*.spv
+*.spirv
+shader_cache/
+heightmap_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / profiling
+*.log
+profiles/
+*.pstats
+
+# Local config overrides
+config/local.toml
+config/secrets.toml
