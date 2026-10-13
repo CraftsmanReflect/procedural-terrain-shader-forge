@@ -1,0 +1,1 @@
+"""Shared plugin contracts. Import these, don't subclass the host internals."""
