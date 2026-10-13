@@ -1,0 +1,31 @@
+# Default forge host configuration.
+# Override per-user at platformdirs.user_config_dir("procedural-terrain-shader-forge")/forge.toml
+
+[host]
+plugin_dirs = ["plugins/generators", "plugins/shaders"]
+watch_plugins = true
+allow_native_plugins = false
+log_level = "info"
+
+[terrain]
+default_resolution = 1024
+max_resolution = 8192
+tile_size_m = 512.0
+seed = 0xC0FFEE
+
+[shader]
+glsl_version = "460 core"
+hot_reload = true
+cache_dir = "shader_cache"
+validate_on_load = true
+
+[preview]
+window_width = 1280
+window_height = 720
+vsync = true
+wireframe_default = false
+
+[bake]
+output_dir = "bake_cache"
+format = "ptf"
+compress = true
